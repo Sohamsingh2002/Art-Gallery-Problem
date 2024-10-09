@@ -36,15 +36,17 @@ Draws polygons, edges, trapezoids, diagonals, triangulation, and guard positions
 Main entry point for the program.
 Prompts the user for the number of vertices, initializes the visualization panel, and sequentially executes the different stages of the solution.
 ## How to run
-Compile the Project: Ensure you have a working Java development environment.
+1. Compile the Project: Ensure you have a working Java development environment.
 
+```bash
+javac Main.java
+```
 
-bash: javac Main.java
+2. Run the Program: Execute the main class to start the program.
 
-Run the Program: Execute the main class to start the program.
-
-bash:
+```bash
 java Main
+```
 
 Input: The program will prompt you for the number of vertices (n). Input a value, such as 20, to generate a polygon with 20 vertices.
 
@@ -52,14 +54,9 @@ Visualization:
 
 Press the "Next" button in the GUI to progress through the stages:
 
-Initialize points and generate the polygon.
-
-Perform trapezoidalization.
-
-Partition into monotone polygons.
-
-Triangulate the polygon.
-
-Generate the dual graph and perform 3-coloring.
-
-Visualize the vertex guards and their positions.
+- Initialize points and generate the polygon.
+- Perform trapezoidalization.
+- Partition into monotone polygons.
+- Triangulate the polygon.
+- Generate the dual graph and perform 3-coloring.
+- Visualize the vertex guards and their positions.
