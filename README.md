@@ -8,7 +8,7 @@ This project implements a solution to the Art Gallery Problem using computationa
 
 The tech stack includes:
 
-- Programming Language: C++
+- Programming Language: Java
 - Libraries/Tools:
   - JFrame & JPannel for visualisation
 
