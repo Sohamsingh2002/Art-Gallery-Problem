@@ -4,6 +4,14 @@
 Project Overview
 This project implements a solution to the Art Gallery Problem using computational geometry techniques. The goal is to determine the minimum number of vertex guards required to cover a given simple polygon, based on its triangulation and dual graph. The program follows a structured sequence of operations, from polygon generation to triangulation and 3-coloring of the dual graph.
 
+## Tech Stack
+
+The tech stack includes:
+
+- Programming Language: C++
+- Libraries/Tools:
+  - JFrame & JPannel for visualisation
+
 
 ## Code Structure
 
